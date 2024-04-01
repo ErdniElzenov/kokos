@@ -61,6 +61,9 @@ const getResult = (
   computerChoice: string,
   setCheck: React.Dispatch<React.SetStateAction<number>>
 ) => {
+  if (game === computerChoice) {
+    return <p>НИЧЬЯ </p>;
+  }
   if (
     (game === "rock" &&
       (computerChoice === "scissors" || computerChoice === "lizard")) ||
