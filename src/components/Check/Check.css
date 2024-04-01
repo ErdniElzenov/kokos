@@ -1,0 +1,45 @@
+.Check {
+  width: 800px;
+  height: 200px;
+  border: 4px #7e7d7d solid;
+  border-radius: 20px;
+  margin: 60px auto;
+  font-size: 30px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Check__block {
+  margin: 20px;
+}
+
+.Check__number {
+  color: black;
+  width: 15%;
+  border-radius: 20px;
+  margin: 20px;
+  background-color: aliceblue;
+  text-align: center;
+}
+
+.Check__number-text {
+  font-size: 20px;
+  color: #282e81;
+  line-height: 0;
+}
+
+.Check__number-result {
+  font-size: 70px;
+  line-height: 0;
+}
+
+@media (max-width: 800px) {
+  .Check {
+    width: 90%;
+  }
+  .Check__number {
+    max-width: 100px;
+    width: 100%;
+  }
+}

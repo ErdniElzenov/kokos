@@ -1,0 +1,31 @@
+.Choice {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  margin: 50px auto;
+  border-radius: 50%;
+  flex-wrap: wrap;
+}
+
+.Choice__img {
+  position: absolute;
+  z-index: -1;
+  width: 60%;
+  margin-top: 90px;
+}
+
+.Choice__block {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media (max-width: 650px) {
+  .Choice {
+    width: 300px;
+  }
+  .Choice__img {
+    margin-top: 50px;
+  }
+}

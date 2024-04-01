@@ -1,0 +1,35 @@
+.Button__container {
+  position: fixed;
+  right: 10%;
+  bottom: 10%;
+}
+
+.Button {
+  display: flex;
+  justify-content: right;
+  margin: 20px;
+}
+
+.Button__type {
+  background: none;
+  width: 150px;
+  height: 40px;
+  color: aliceblue;
+  border: 2px solid aliceblue;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  text-align: center;
+  line-height: 40px;
+}
+@media (max-width: 650px) {
+  .Button__container {
+    position: absolute;
+    top: 600px;
+    right: 20px;
+  }
+}
